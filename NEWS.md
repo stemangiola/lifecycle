@@ -1,6 +1,8 @@
 
 # lifecycle 0.1.0.9000
 
+* Added the "superseded" lifecycle stage to the documentation.
+
 * New `expect_deprecated()` and `expect_defunct()` functions for
   testting lifecycle warnings and errors. `expect_deprecated()`
   automatically sets the `lifecycle_verbosity` option to `"warning"`
